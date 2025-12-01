@@ -151,3 +151,6 @@ DATABASES = {
         conn_max_age=600
     )
 }
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
